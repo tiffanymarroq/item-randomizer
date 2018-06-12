@@ -1,6 +1,6 @@
-# quotes
+# Item Randomizer
 
-> A Vue.js project
+> A Vue.js project to add / remove items and select a random item
 
 ## Build Setup
 
@@ -15,4 +15,4 @@ npm run dev
 npm run build
 ```
 
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
