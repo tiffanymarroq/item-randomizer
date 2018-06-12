@@ -52,11 +52,19 @@
       },
       deleteItem(i) {
         this.items.splice(i, 1);
+        if(this.items.length == 0){
+          this.pick='';
+        }
       },
       randomItem() {
-        var randomPick = (this.items[Math.floor(Math.random() * this.items.length)]);
-        this.pick = randomPick;
+        var randomPick = '';
+ 
+           randomPick = (this.items[Math.floor(Math.random() * this.items.length)]);
+        
+          this.pick = randomPick;
+
       },
+
       foodList(){
         var food = [ 'Pizza', 'Burger', 'Soup', 'Salad'];
         for(var i=0; i < food.length; i++){
@@ -65,8 +73,8 @@
       },
       clearList(){
         this.items.splice(0,this.items.length)
-        console.log(this.items);
-        this.pick="";
+        this.pick = '';
+
       }
     },
     components: {
