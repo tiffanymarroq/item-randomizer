@@ -9,7 +9,6 @@
         <button class="btn btn-primary" @click.prevent="createNew" >Add</button>
       </div>
     </form>
-
   </div>
 </template>
 
@@ -28,6 +27,5 @@
     }
   }
 </script>
-
 <style>
 </style>

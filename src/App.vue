@@ -29,12 +29,16 @@
         </div>
       </div>
     </div>
+    <app-maps></app-maps>
+
   </div>
 </template>
 
 <script>
   import Grid from './components/Grid.vue';
   import NewItem from './components/NewItem.vue';
+  import Maps from './components/Maps.vue';
+  
 
   export default {
     data: function () {
@@ -75,16 +79,20 @@
         this.items.splice(0,this.items.length)
         this.pick = '';
 
-      }
+      },
+      
     },
     components: {
       appGrid: Grid,
-      appNewItem: NewItem
+      appNewItem: NewItem,
+      appMaps: Maps
     }
   }
 </script>
 
 <style>
-
+ body{
+   padding: 50px 0;
+ }
 
 </style>
