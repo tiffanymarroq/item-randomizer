@@ -1,6 +1,7 @@
 # Item Randomizer
 
 > A Vue.js project to add / remove items and select a random item
+> http://vueitem.tiffanymarroquin.com/
 
 ## Build Setup
 
